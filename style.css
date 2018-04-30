@@ -1,0 +1,35 @@
+.imageList{
+  margin: 2px;
+}
+
+.buttonType{
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+#projectDescription{
+  max-width: 85%;
+}
+
+.projectVideo{
+  width:640px;
+  height:360px;
+}
+
+#projectName{
+  font-weight: bold;
+}
+
+#projectData{
+  font-weight: bold;
+}
+
+#projectTitle{
+  font-weight: bold;
+}
+
+#primaryImage{
+  max-width: 75%;
+  height: auto;
+}

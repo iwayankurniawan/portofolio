@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portofolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+	<div class="container-fluid">
+		<div class="col-sm-3" id="sideBarView">
+      <h3>I Wayan Kurniawan</h3>
+      <div>
+        <button id="all" class="buttonType btn btn-light" type="button" name="button" value="" >All</button>
+        <button id="it" class="buttonType btn btn-light" type="button" name="button" value="it" >Android, Website, Game</button>
+        <button id="electrical" class="buttonType btn btn-light" type="button" name="button" value="electrical">Electrical Engineering</button>
+      </div>
+		</div>
+    <div class="col-sm-9">
+      <h3>Portofolio</h3>
+      <div id="portofolioView">
+
+      </div>
+      <div id="showProjectView">
+
+      </div>
+    </div>
+	</div>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <!-- Bootstrap JavaScript, needed if you want for instance tabs, models, popovers etc. -->
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+	<!-- The application JavaScript code -->
+	<script src="js/app.js"></script>
+	<script src="js/model/PortofolioModel.js"></script>
+
+	<script src="js/view/portofolioView.js"></script>
+  <script src="js/view/sideBarView.js"></script>
+  <script src="js/view/showProjectView.js"></script>
+
+  <script src="js/controller/generalController.js"></script>
+  <script src="js/controller/sideBarController.js"></script>
+  <script src="js/controller/showProjectController.js"></script>
+  <script src="js/controller/portofolioController.js"></script>
+
+  <footer>
+    <p>Create: I Wayan Kurniawan 2018</p>
+  </footer>
+  </body>
+</html>
