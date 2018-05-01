@@ -9,8 +9,9 @@ var PortofolioView = function (container, model){
     var year = model.getYear();
 
     for (var j = 0; j < year.length; j++) {
+        container.append($("<h1>").attr("id","name"+year[j]).html(year[j]));
         container.append($("<div>").attr("id",year[j]).attr("class","row"));
-        container.find("#"+year[j]).append($("<h1>").html(year[j]));
+
     }
 
     for (i=0;i<templist.length;i++){
@@ -29,7 +30,9 @@ var PortofolioView = function (container, model){
     var year = model.getYear();
     for (var j = 0; j < year.length; j++) {
       row = container.find("#"+year[j]);
+      row1 = container.find("#"+"name"+year[j]);
       row.remove();
+      row1.remove();
     }
     for (var i = 1; i <= templist.length; i++) {
       row = container.find("#project"+i);
