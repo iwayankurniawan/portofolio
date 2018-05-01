@@ -212,7 +212,7 @@ var year = [2018,2017,2016];
       'id':7,
   		'name':'Away from home',
   		'type':'it',
-  		'image':'away.jpg',
+  		'image':'away.png',
       'year':'2018',
       'course':'DH2321 Information Visualization',
       'tools':'d3.js, javascript',
